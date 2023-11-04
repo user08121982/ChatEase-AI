@@ -1,4 +1,4 @@
-let conversationHistory = [{"role": "system", "content": "You are an helpful assistant. Use proper html list format, tables, code snippets, etc. wherever necessary instead of plain text."}];
+let conversationHistory = [{ "role": "system", "content": "You are an helpful assistant. Use proper html list format, tables, code snippets, etc. wherever necessary instead of plain text." }];
 
 async function sendMessage() {
     var userInput = document.getElementById('userInput');
